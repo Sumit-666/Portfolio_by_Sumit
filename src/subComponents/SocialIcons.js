@@ -32,14 +32,14 @@ const SocialIcons = (props) => {
   return (
     <Icons>
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://github.com/codebucks27"}
+          href={"https://github.com/Sumit-666"}
         >
           <Github
             width={25}
@@ -49,14 +49,14 @@ const SocialIcons = (props) => {
         </a>
       </motion.div>
       <motion.div
-        initial={{scale:0 }}
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.2 }}
       >
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://twitter.com/code_bucks"}
+          href={"https://twitter.com/Sumit_kumar_551"}
         >
           <Twitter
             width={25}
@@ -65,8 +65,8 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
-      <motion.div
-        initial={{scale:0 }}
+      {/* <motion.div
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.4 }}
       >
@@ -81,9 +81,9 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
-      </motion.div>
-      <motion.div
-        initial={{scale:0 }}
+      </motion.div> */}
+      {/* <motion.div
+        initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.6 }}
       >
@@ -98,7 +98,7 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
-      </motion.div>
+      </motion.div> */}
 
       <Line
         color={props.theme}
