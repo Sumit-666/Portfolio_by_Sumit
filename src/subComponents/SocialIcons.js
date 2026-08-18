@@ -38,7 +38,7 @@ const SocialIcons = (props) => {
       >
         <a
           style={{ color: "inherit" }}
-          target="_blank"
+          target="noreferrer"
           href={"https://github.com/Sumit-666"}
         >
           <Github
@@ -55,7 +55,7 @@ const SocialIcons = (props) => {
       >
         <a
           style={{ color: "inherit" }}
-          target="_blank"
+          target="noreferrer"
           href={"https://twitter.com/Sumit_kumar_551"}
         >
           <Twitter
